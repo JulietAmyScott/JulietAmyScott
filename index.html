@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Los Angeles based Graphic Designer.">
+  	<meta name="keywords" content="JUILET SCOTT Juliet A Scott julietscott julieta scott julietascott julietamyscott graphic designer motion designer graphic artist los angeles LA "><!-- Hello, My name is Juliet Scott. I am a graphic designer based in Los Angeles. Welcome to my website. Take a look at the code, and if you have any questions, get in touch.-->
+ 	<meta name="author" content="Juliet Scott">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>JULIET SCOTT</title>
+	 <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet"> -->
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="css/style.css" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VV8QD9TCGM"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-VV8QD9TCGM');
+	</script>
+
+</head>
+<!-- Menu -->
+<body data-spy="scroll" data-target="navbar-custom">
+	<div class="menu" alt="Overlay made by Dronca Raul - codepen.io/rauldronca/pen/jrjqyb. Customizations made by Michael Levy">
+		<a href="#" class="menu-link">
+			<span class="menu-icon">
+				<span class="menu-line menu-line-1"></span>
+				<span class="menu-line menu-line-2"></span>
+				<span class="menu-line menu-line-3"></span>
+			</span>
+		</a>
+	</div>
+	<div class="menu-overlay">
+		<ul>		
+			<li><a href="index.html">home</a></li>
+			<li><a href="index.html#portfolio">portfolio</a></li>
+			<li><a href="about.html">me & design</a></li>
+			<li><a href="contact.html">get in touch</a></li>
+		</ul>
+	</div>
+	<div class="menu">
+		<span class="menu-circle"></span>
+	</div>
+	<!-- Intro -->
+	<section class="intro pt-15 flex_container grid lg:grid-cols-12 pb-4">
+		<div class="lg:col-span-6 lg:pl-32 column grid-item">	
+			<img src="img/hello.gif" class="img-responsive">
+			<div class="mobile_hello">
+				<img src="img/hello.png">
+			</div>
+		</div>
+		<div class="lg:col-span-6 lg:pl-16 column grid-item">
+			<h3>My name is Juliet Scott. I am a graphic designer based in Los Angeles. Welcome to my website. Take a look around, and if you have any questions, <a href="contact.html">get in touch</a>. 
+
+			</h3>
+		</div>
+	</section>
+	<div class="flex_container pb-7">
+		<div class="border"></div>	
+	</div>
+	<!-- Portfolio Nav  -->
+	<section id="portfolio">
+		<div class="flex_container col-sm-12">
+			<div class="portfolio_nav">
+				<ul class="d-flex justify-content-center bd-highlight mb-3">
+					<li><a id="everything_button">everything</a></li>
+					<li><a id="work_button">work projects</a></li>	
+					<li><a id="inde_button">independent projects</a></li>
+				</ul>
+			</div>	
+		</div>
+	</section>
+
+	<!-- Portfolio Thumbnails -->
+	<main class="flex-col pt-5 portfolio-thumbs">
+		<section class="flex_container">
+			<div class="grid gutter md:grid-cols-2 lg\:grid-cols-2">
+				<div class="work_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+						<img src="img/levis_thumb.jpg" class="img-responsive" alt="Levi"/>
+					</a>
+				</div>	 
+				<div class="work_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"><img src="img/draycott_thumb.jpg" class="img-responsive" alt="Draycott"/>
+					</a>
+				</div>
+				<div class="work_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><img src="img/pappys_thumb_small.jpg" class="img-responsive" alt="Pappys" />
+					</a>
+				</div>	
+				<div class="inde_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal"><img src="img/camus_thumb.jpg" class="img-responsive" alt="Camus" />
+					</a>
+				</div>
+				<div class="inde_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal"><img src="img/x-type-thumb.jpg" class="img-responsive" alt="Type Experiment" />
+					</a>
+				</div>	
+				<div class="inde_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal"><img src="img/cholla_thumb.jpg" class="img-responsive" alt="Cholla Book" />
+					</a>
+				</div>	
+				<div class="inde_thumbs image-area portfolio-item bounce-up">
+					<a href="#portfolioModal7" class="portfolio-link" data-toggle="modal"><img src="img/botler_thumb.gif" class="img-responsive" alt="Botler Mobile App" />
+					</a>
+				</div>
+			</div> 	<!-- grid gutter -->
+		</section>
+	</main>
+	<!-- work overlays -->
+	<section id="overlays" class="work">	
+		<!-- Levi's -->
+			<div class="portfolio-modal modal pb-3" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-content">
+				<div class="flex_container">
+					<div class="close_x">
+							<div class="close-link">	
+								<span class="close_icon" data-dismiss="modal">
+									<span class="close-line close-line-1"></span>
+									<span class="close-line close-line-2"></span>
+								</span>
+							</div>
+					</div> 
+					<div class="grid gutter md:grid-cols-1 lg:grid-cols-1 img-wrapper pb-2 pt-7">
+						<iframe width="100%" height="600" src="https://www.youtube.com/embed/POCpvO4yhn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+						</iframe>
+					</div>
+					<div class="img-wrapper pb-2">
+						<article>
+							<div class="article grid gutter md:grid-cols-1 lg:grid-cols-2 secton_two vertical_align add_padding">
+								<div class="d-flex justify-content-center img-wrapper ">
+									<img class="img-responsive" src="img/levi_collage.png">
+								</div>
+								<div class="text_box">
+									<p>I worked on several campaigns for Levi's, including the 2023 Pride campaign. Under the direction of the creative lead, I assisted with wire-framing and designed print and digital media - extending the overall look and feel of the campaign.  
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="img-wrapper grid gutter lg:grid-cols-3">
+						<div class="">
+							<img class="img-responsive" src="img/all_story_levi.gif">
+						</div>
+						<video width="100%" height="100%" autoplay loop muted>
+								<source src="img/levi_logo_gradient.mp4" type="video/mp4">
+								<source src="movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+						</video> 
+						<div class="">
+							<img class="img-responsive" src="img/levi_japan_story.gif">
+						</div>
+					</div> 
+				</div> <!--  flex_container -->
+			</div> <!--  modelcontent -->
+			</div> <!--  portfolioModal1 -->
+		<!-- Draycott -->
+			<section class="portfolio-modal modal draycott pb-3" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="flex_container">
+					<div class="close_x">
+						<div class="close-link">	
+							<span class="close_icon" data-dismiss="modal">
+								<span class="close-line close-line-1"></span>
+								<span class="close-line close-line-2"></span>
+							</span>
+						</div>
+					</div>
+					<div class="pt-7 pb-1 img-wrapper d-flex justify-content-center">
+						<img src="img/draycott_logo.png" class="img-responsive" alt="Draycott Restaurant">
+					</div>
+					<div class="img-wrapper text_box pb-2 text_align">
+					 Teaming up with <a href="https://www.lasocialkarma.com" target="_blank">LA Social Karma</a>, to design and develop a website that captured the essence of The Draycott, a Pacific Palisades restaurant known for its California cuisine and inviting upscale yet casual atmosphere.
+					</div>
+					<div class="img-wrapper pb-2">
+						<img src="img/draycott_four.jpg" class="img-responsive" alt="Draycott Restaurant">
+					</div>
+					<div class="img-wrapper ">
+						<article>
+							<div class="add_padding draycott_pink">
+								<h3>VISUAL IDENTITY</h3>
+								<p class="text_box"> I curated the restaurant's interior design, imagery, and visual identity to reflect the establishment's look and feel.  </p>
+								<div class="img-wrapper">
+									<img src="img/draycott_branding.png" class="img-responsive" alt="Draycott Restaurant">
+								</div>
+								<div class="img-wrapper pt-3">
+									<img src="img/draycott_type.png" class="margin_auto img-responsive" alt="Draycott Restaurant">
+								</div>
+
+						</article>
+					</div>
+					<div class="pt-5 flex_container">
+						<div class="text_align">
+							<h3>DESIGN & DEVELOPMENT APPLICATIONS</h3>
+						</div>
+						<div class="custom_bullet pt-sides-8 pt-2 pb-1 text_box">	
+							<ul>
+								<li>Designed web elements for user friendly functionality and visual hierarchy.</li>
+								<li>Developed the website for optimal responsive display on browsers and devices.</li>
+								<li>Implementing code and plugins for custom features.</li>
+								<li>Maintained image quality and color and type consistency.</li>
+							</ul>
+						</div>
+						<div class="img-wrapper pb-2">
+							<video width="100%" height="100%" autoplay loop controls muted>
+								<source src="img/draycott_website_video.mov" type="video/mp4">
+								<source src="movie.ogg" type="video/ogg">
+								Your browser does not support the video tag.
+							</video> 
+							<p>While the theme and layout closely resemble the original design, the website has since transitioned to a different platform and is maintained by The Draycott's internal team.</p>
+						</div>
+					</div>
+				 </div> <!--flex container -->
+			</section>
+		<!-- Pappy's -->
+			<div class="portfolio-modal modal pb-3" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-content">
+					<div class="flex_container">
+						<div class="close_x">
+							<div class="close-link">	
+								<span class="close_icon" data-dismiss="modal">
+									<span class="close-line close-line-1"></span>
+									<span class="close-line close-line-2"></span>
+								</span>
+							</div>
+						</div>
+						<div class="grid gutter md:grid-cols-2 lg:grid-cols-1 pt-7 pb-2">
+							<div class="img-wrapper">
+								<img class="img-responsive" src="img/pappys_home.jpg" alt="Pappy's Seafood">
+							</div>
+							<div class="img-wrapper">
+								<img class="img-responsive" src="img/pappys_seafood_dish.jpg" alt="Pappy's Seafood">
+							</div>
+						</div>
+						<div class="img-wrapper grid gutter lg:grid-cols-1 pb-2">
+							<article class="pappys_color add_padding pappys_text">
+								<p>Pappy’s Seafood Restaurant recently occupied an artfully refurbished building in downtown San Pedro. While freelancing for <a href="https://www.lasocialkarma.com" target="_blank">LA Social Karma</a>, I designed and developed Pappy’s Seafood website to reflect the restaurant's essence and historical significance to the community. </p>
+							</article>
+						</div>
+						<div class="grid gutter md:grid-cols-2 lg:grid-cols-1">
+							<div class="portfolio-item img-wrapper">
+								<img class="pappys_border img-responsive" src="img/pappys_rendezvous_2.jpg">
+							</div>
+							<div class="portfolio-item img-wrapper">
+								<img class="img-responsive" src="img/pappys_interior.jpg">
+							</div>
+							<div class="portfolio-item img-wrapper">
+								<img class="img-responsive" src="img/pappys_drink.jpg">
+							</div>
+							<div class="portfolio-item img-wrapper">
+								<img class="pappys_border img-responsive" src="img/pappys_rendezvous_1.jpg">
+							</div>
+						</div>
+					</div><!-- container -->
+				</div><!-- model content -->
+			</div>
+		<!-- </main> 
+	</section>
+
+	<--independent overlays -->
+	<section id="overlays" class="independent">
+	<!-- camus -->
+		<div class="portfolio-modal modal camus" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="flex_container">
+				<div class="close_x">
+					<div class="close-link">	
+						<span class="close_icon" data-dismiss="modal">
+							<span class="close-line close-line-1"></span>
+							<span class="close-line close-line-2"></span>
+						</span>
+					</div>
+				</div>
+				<div class="grid gutter md:grid-cols-1 lg\:grid-cols-1 justify-content-center">
+					<div class="pt-7 clear img-wrapper">
+						<img src="img/camus_two_bottles.png" class="img-responsive" alt="Camus bottle package redesign - front and back">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/camus_compass.png" class="img-responsive" alt="Camus bottle package redesign - front and back">
+					</div> 
+					<div class="img-wrapper">
+						<img src="img/camus_cap.png" class="img-responsive" alt="Camus bottle package redesign - bottle punt">
+					</div>
+					<!-- fourth-row -->
+					<div class="img-wrapper">
+						<img src="img/camus_insignia.png" class="img-responsive" alt="Camus bottle package redesign">
+					</div>
+					<!-- fifth-row -->
+					<div class="img-wrapper">
+						<img src="img/camus_ship.png" class="img-responsive" alt="Camus bottle package redesign - bottle punt">
+					</div>
+					<!-- sixth-row -->
+					<div class="img-wrapper">
+						<img src="img/camus_cap_ship.png" class="img-responsive" alt="Camus bottle package redesign">
+					</div>
+					<!-- seventh-row -->
+					<div class="img-wrapper">
+						<img src="img/camus_packaging_angled.png" class="img-responsive" alt="Camus bottle package redesign">
+					</div>
+					<!-- eighth-row -->
+					<div class="img-wrapper">
+						<img src="img/camus_tres_vious_xo.png" class="img-responsive" alt="Camus bottle package redesign - very old">
+					</div>
+					<!-- ninth-row -->
+					<div class="pb-3 img-wrapper">
+						<img src="img/camus_boxes_bottles.jpg" class="img-responsive" alt=" bottle package redesign">
+					</div> 
+				</div>
+			</div><!-- container -->
+		</div>
+	<!--xoxo-type -->
+		<div class="portfolio-modal modal flex-col pb-3" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="flex_container">
+				<div class="close_x">
+					<div class="close-link">	
+						<span class="close_icon" data-dismiss="modal">
+							<span class="close-line close-line-1"></span>
+							<span class="close-line close-line-2"></span>
+						</span>
+					</div>
+				</div>
+				<div class="img-wrapper pt-7 pb-1">
+					<video width="100%" height="100%" autoplay loop controls muted>
+						<source src="img/xoxo_web.mp4" type="video/mp4">
+						<source src="movie.ogg" type="video/ogg">
+						Your browser does not support the video tag.
+					</video> 
+				</div><!-- video -->
+				<div class="img-wrapper pb-2 pt-2">
+					<article>
+						<div class="grid gutter justify-content-center background_gray md:grid-cols-1 lg\:grid-cols-2 add_padding">
+							<div class="img-wrapper d-flex justify-content-center">
+								<img src="img/just_lips.png" class="img-responsive" alt="Lips with borders">
+							</div>
+							<div class="text_box xo_text_color vertical_align">
+								<p>I chose the letter X for the @36daysoftype challenge on @CSULB.GD because of its opposing and sometimes controversial meaning. In correspondence, the letters X and O are often adjoined in a loving close, three X’s together are seen on adult theater marques, and a single X can symbolize taboo, danger and the unknown. But of all the symbols the letter X conveys, I celebrate X with a little O.</p>
+							</div>
+						</div>
+					</article>
+				</div>
+				<div class="grid gutter md:grid-cols-3 lg\:grid-cols-3">
+						<div class="img-wrapper">
+							<img src="img/lips_1.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_2.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_3.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_4.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_5.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_6.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_7.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_8.jpg" class="img-responsive" alt="Lips static">
+						</div>
+						<div class="img-wrapper">
+							<img src="img/lips_9.jpg" class="img-responsive" alt="Lips static">
+						</div>
+				</div>
+			</div><!-- container -->
+		</div><!--xoxo-type -->
+	<!--cholla -->
+		<div class="portfolio-modal modal cholla" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="flex_container">
+				<div class="close_x">
+					<div class="close-link">	
+						<span class="close_icon" data-dismiss="modal">
+							<span class="close-line close-line-1"></span>
+							<span class="close-line close-line-2"></span>
+						</span>
+					</div>
+				</div>
+				<div class="grid gutter md:grid-cols-1 lg\:grid-cols-1 d-flex justify-content-center">
+					<div class="pt-7 model-body clear img-wrapper">
+						<img src="img/cholla_book_cover.jpg" class="img-responsive" alt="Cholla Book Cover">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_history.jpg" class="img-responsive" alt="Cholla History">
+
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_numbers.jpg" class="img-responsive" alt="Cholla Numbers">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_construction.jpg" class="img-responsive" alt="Cholla Construction">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_symbols.jpg" class="img-responsive" alt="Cholla Symbols">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_type-styling.jpg" class="img-responsive" alt="Cholla Symbols">
+					</div>
+					<div class="img-wrapper">
+						<img src="img/cholla_attributes.jpg" class="img-responsive" alt="Cholla Attributes">
+					</div>
+					<div class="pb-3 img-wrapper">
+						<img src="img/cholla_book_cover_front_back.jpg" class="img-responsive" alt="Cholla Book back and front">
+					</div>
+				</div>
+			</div><!-- container -->
+		</div>
+	<!-- botler -->
+		<div class="portfolio-modal pb-3 modal" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="flex_container">
+				<div class="close_x">
+					<div class="close-link">	
+						<span class="close_icon" data-dismiss="modal">
+							<span class="close-line close-line-1"></span>
+							<span class="close-line close-line-2"></span>
+						</span>
+					</div>
+				</div>
+				<div class="pt-7 d-flex justify-content-center img-wrapper">
+					<img src="img/botler-layout.gif" class="img-responsive">
+				</div> 
+			</div><!-- container -->
+		</div>
+
+	</section>	
+
+	<!-- Core JavaScript Files -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="vendor/jquery/style.js"></script>
+</body>
+</html>
