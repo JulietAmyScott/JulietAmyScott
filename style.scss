@@ -6,31 +6,22 @@ $orange: #FF785A;
 $graylight: #D9D9D9;
 $white: #ffffff;
 
+
 @font-face {
-    font-family: 'abcreproscreen';
-    src: url('../fonts/ABCRepro-Screen.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'abcreprolight';
-    src: url('../fonts/ABCRepro-Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'abcreprohairline';
-    src: url('../fonts/ABCRepro-Hairline.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'swis721_lt_btlight';
+    src: url('../fonts/swiss721bt-light-webfont.woff2') format('woff2'),
+         url('../fonts/swiss721bt-light-webfont.woff') format('woff');
+    font-weight: light;
+    font-style: light;
 }
 body  {
-	font-family: abcreprolight, sans-serif;
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
 	letter-spacing: 0.04em;
 }
 li {
-		list-style: none;
-				text-decoration: none;
+	list-style: none;
+		text-decoration: none;
 	}
 a {
 	color: $white;
@@ -45,7 +36,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: abcreprolight, sans-serif;
+	font-family: Helvetica, sans-serif;
+	font-weight: 100;
 }
 p  {
 	line-height: 1.7;
@@ -119,7 +111,7 @@ p  {
 	margin-right: auto;
 }
 .vertical_align {
-		display: -webkit-box;
+	display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
@@ -139,6 +131,9 @@ p  {
 			color: $matte;
   	}
   }
+}
+.center {
+	justify-content: center;
 }
 @media (max-width: 819px) {
 .text_box {
@@ -164,18 +159,13 @@ and (max-width : 819px) {
 
 @media only screen 
 and (max-width : 819px) {
-	.portfolio_nav {
+	.portfolio_nav ul {
 		display: block !important;
 		justify-content: left !important;
-		ul {
-			padding-left:0;
-		}
+		padding-left:0;
 	}
 }
-// @media only screen 
-// and (max-width : 819px) {
-// 	.portfolio_nav 
-// }
+
 @media only screen 
 and (max-width : 819px) {
 	.external-links ul li {
@@ -476,12 +466,13 @@ and (max-width :  425px) {
   color: $matte;
   margin-bottom: 0px;
   a {
-  	 color: $orange;
-  		&:hover {
-		 	color:$matte;
-		}
+  	color: $orange;
+  	&:hover {
+	color:$matte;
+	}
   }
 }
+
 
 .hello_video {
 	max-height: 250px;
@@ -565,23 +556,19 @@ and (max-width :  425px) {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 90%;
 }
 .d-flex {
 	display: flex !important; 
-}
-.justify-content-center {
-
-	justify-content: center!important;
 }
 .text_align {
 	text-align: center;
 }
 .flex-col {
-    flex-direction: column !important;
+    flex-direction: row !important;
 }
 .grid {
     display: grid !important;
+	place-items: center;
 }
 .gutter {
     grid-gap: 3rem !important;
@@ -655,9 +642,9 @@ and (max-width :  425px) {
 	color: $matte;
 }
 .portfolio_nav ul {
+	justify-content: center;
 	li {
 		padding-right: 10%;
-		text-align: center;
 		font-size: 1.2em;
 	}
 	li:last-child {
@@ -696,7 +683,9 @@ and (max-width :  425px) {
 .draycott_white {
 	background-color: #FFFFFF;
 }
-
+.draycott p {
+	text-align: left;
+}
 .draycott a {
 		color: $dark;
 		font-size: 1em;
